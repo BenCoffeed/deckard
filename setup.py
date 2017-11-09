@@ -11,7 +11,7 @@ setup(
         'A task runner, package builder, deploy tool'
     ),
     long_description=long_description,
-    version='0.7',
+    version='0.8',
     url='https://github.com/RoundingWellOS/deckard',
     author=u'Hernán Ciudad',
     author_email='hernan@roundingwell.com',
@@ -43,7 +43,7 @@ setup(
         'paramiko==1.15.2',
         'psycopg2==2.6',
         'pycrypto==2.6.1',
-        'requests==2.5.1',
+        'requests>=2.18.4',
         'SQLAlchemy==0.9.8',
         'uritemplate.py==0.3.0',
         'Werkzeug==0.10.1',
